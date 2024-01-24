@@ -18,17 +18,17 @@ def beolvas():
     return kocsi
 
 def tabla(kocsi:Auto):
-    print(f"\t {kocsi.nev}: {len(kocsi.nev)} hosszú.")
+    print(f"\t{kocsi.nev}: {len(kocsi.nev)} hosszú.")
 
 
 def kiiras(kocsi:Auto):
     fajl=open("kiiras.txt","w",encoding="utf-8")
-    fajl.write(f"\t {kocsi.nev}: {len(kocsi.nev)} hosszú.")
+    fajl.write(f"\t{kocsi.nev}: {len(kocsi.nev)} hosszú.")
     fajl.close()
 
 
 def flotta(kocsi):
-    print(f"Az autók száma: {len(kocsi)}")
+    print(f"\tAz autók száma: {len(kocsi)}")
 
 
 def ertekes(kocsi):

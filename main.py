@@ -17,10 +17,14 @@ print(f"\tA héttel osztható számok száma: {db}")
 
 print("III.feladat")
 kocsi = autom.beolvas()
+
+print("III/TÁBLA:")
 autom.tabla(kocsi[3])
 autom.kiiras(kocsi[3])
 
+print("III/FLOTTA:")
 autom.flotta(kocsi)
 
+print("III/ÉRTÉKES:")
 legfiatalabb_index=autom.ertekes(kocsi)
-print(f"A legfiatalabb autó: {kocsi[legfiatalabb_index].nev}({kocsi[legfiatalabb_index].ev})")
+print(f"\tA legfiatalabb autó: {kocsi[legfiatalabb_index].nev}({kocsi[legfiatalabb_index].ev})")
